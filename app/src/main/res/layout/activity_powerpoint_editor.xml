@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="66dp"
+    android:layout_marginTop="66dp">
+
+    <EditText
+        android:id="@+id/editTextPpt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="PowerPoint slide content"
+        android:gravity="top"
+        android:inputType="textMultiLine" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_marginTop="12dp">
+
+        <Button
+            android:id="@+id/btnOpenPpt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open" />
+
+        <Space android:layout_width="8dp" android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnSavePpt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+        <Space android:layout_width="8dp" android:layout_height="wrap_content" />
+
+        <Button  android:id="@+id/btnClear"  android:layout_width="wrap_content"  android:layout_height="wrap_content"  android:text="Cancel"/>
+
+        <Space android:layout_width="8dp" android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnexcel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="excel" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Notepad</string>
+    <string name="nav_drawer_open" translatable="false">Open navigation drawer</string>
+</resources>
